@@ -1,4 +1,5 @@
 //s23004
+//スーパークラスの定義
 class Animal {
 	public void makeSound() {
 		System.out.println("動物の音");
@@ -8,6 +9,7 @@ class Animal {
 	}
 }
 
+//継承したサブクラス
 class Dog extends Animal {
 	public void makeSound() {
 		System.out.println("ワンワン");
