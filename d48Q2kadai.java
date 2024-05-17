@@ -1,4 +1,5 @@
 //s23004
+//新しくCatというサブクラスを作ってインスタンス化し、出力した
 //スーパークラスの定義
 class Animal {
 	public void makeSound() {
